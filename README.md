@@ -25,7 +25,7 @@ GET http://localhost:3000/states
 
 2. Get districts by state (case-insensitive)
 Endpoint:
-GET http://localhost:3000/districts/:stateName
+GET http://localhost:3000/districts/<stateName>
 Example:
 GET http://localhost:3000/districts/Himachal%20Pradesh
 Example Response:
